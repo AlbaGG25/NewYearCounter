@@ -32,12 +32,13 @@ html{
 .circle{
     background: linear-gradient(#056108, #3b8539);
     opacity: 0.75;
-    width: 33rem;
+    width: 32rem;
     height: 30rem;
-    border-radius: 50%;
+    border-radius: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 4rem;
     gap: 2rem;
 }
@@ -117,10 +118,12 @@ html{
 /* Media queries */
 @media (min-width: 768px){
     .circle{
+        padding-top: 2rem;
         width: 40rem;
         height: 37rem;
     }
     .time{
+        
         font-size: 6rem;
     }
     
