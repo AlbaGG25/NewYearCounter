@@ -83,9 +83,9 @@ html{
     text-align: center;
     font-size: 4rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #ffa;
+    color: rgb(249, 249, 144);
     text-shadow: 0 0 30px #fff;
-    padding-block: 12rem;
+    padding-top: 23rem;
     animation-duration: 10s;
     -webkit-animation-name: bounce; 
     animation-name: bounce; 
@@ -98,16 +98,19 @@ html{
    } 
  
    @keyframes bounce { 
-    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    0%, 20%, 80%, 100% {transform: translateY(0);} 
     40% {transform: translateY(-100px);} 
     60% {transform: translateY(100px);} 
    }
  
-.footnote{
-    font-size: 1.2rem;
-    text-align: center;
-    color: gold;
-    padding-top: 5rem;
+
+.btn-msg{
+    font-size: 1.5rem;
+    border: none;
+    background-color: #F7DC6F;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-top: 15rem;
 }
 
 /* Media queries */
@@ -141,6 +144,10 @@ html{
 
     .footnote{
         font-size: 2rem;
+    }
+
+    .btn-msg{
+        margin-top: 12rem;
     }
 }
 

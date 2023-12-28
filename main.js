@@ -39,6 +39,8 @@ const handleClick = () =>{
             renderList();
             msg.innerHTML = `<article class="msg_article">
             <h1 class= "title">Happy New Year!!!</h1>
+
+            <button class="btn-msg">Take me back</button>
             </article>`; 
             msg.classList.remove('hidden');
             sectionCircle.classList.add ('hidden');
