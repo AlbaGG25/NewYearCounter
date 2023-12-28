@@ -184,4 +184,7 @@ html{
     .footnote{
         font-size: 3rem;
     }
+    .btn-msg{
+        margin-top: 2.5rem;
+    }
 }
